@@ -287,9 +287,9 @@ def run_image(arg):
     command += ' --link2symlink'
     command += ' -S '
     command += distro_path
-#   command += ' -b /sdcard'
-#   command += ' -b /system'
-#   command += ' -b /data/data/com.termux/files/home'
+    command += ' -b /sdcard'
+    command += ' -b /system'
+    command += ' -b /data/data/com.nightmare.termare/files/home'
     command += ' -w /root'
     command += ' /usr/bin/env -i'
     command += ' HOME=/root'
